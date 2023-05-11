@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
- 
+
 class MailSender {
   constructor() {
     this._transporter = nodemailer.createTransport({
